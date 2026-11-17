@@ -156,8 +156,7 @@ footer a{color:var(--brand);font-weight:600}
 /* ===== SETTINGS: fill these in before publishing ===== */
 var CONFIG={
  ENDPOINT:"https://script.google.com/macros/s/AKfycbzQhC8eshjKX_yjdIJ9MW_ak0s3lQFq21CM9oij-zjy8z2TI4DbyOxcANVpVhxkib50/exec",                                   /* paste your Google Apps Script web app URL here (see Code.gs) */
- OPERATOR:"Hamza Medhat",   /* who operates Colink; shown in the privacy notice */
- EMAIL:"hamza_medhat@outlook.com",              /* contact for privacy requests */
+ EMAIL:"colinkegypt@gmail.com",              /* contact for privacy requests */
  VERSION:"2026-11",                             /* bump when you change the privacy notice */
  RETENTION_MONTHS:"12"
 };
@@ -176,7 +175,7 @@ hT:"How it works",s1:"Send your request or your company details.",s2:"Our team r
 sending:"Sending…",err:"We couldn’t send your details. Please check your connection and try again.",errPhone:"Please enter a valid phone number (10 to 15 digits).",
 okQT:"Request received",okQ:"Thank you. We have your request and will contact you on the phone number you gave, usually within one business day.",okJT:"Details received",okJ:"Thank you. We have your details and will contact you soon.",again:"Send another",
 privT:"Privacy Notice and Terms",upd:"Last updated: November 2026",
-op:"Colink is an early-access service operated by {OP}, Egypt.",contact:"Questions or privacy requests: {EMAIL}",foot:"Colink. Early access, Egypt."},
+op:"Colink is an early-access service based in Egypt.",contact:"Questions or privacy requests: {EMAIL}",foot:"Egypt’s B2B services marketplace."},
 ar:{toggle:"English",h1:"احصل على عروض أسعار من مزودي خدمات في مصر",sub:"أخبرنا بما تحتاجه شركتك، من التصنيع والطباعة إلى التسويق والتصميم والبرمجة، وسنوصلك بالمزودين المناسبين. هل تقدّم خدمة؟ انضم إلى أول شبكة مزودين لدينا.",c1:"اطلب عرض سعر",c2:"انضم كمزود خدمة",chipsT:"ما يمكنك طلبه",
 trust:["مجاني للعملاء ودون أي التزام","وصول مبكر: فريقنا يراجع المزودين يدويا"],
 qT:"اطلب عرض سعر",qS:"يستغرق الأمر دقيقتين تقريبا. سنتواصل معك عبر الهاتف أو واتساب.",need:"ما الخدمة التي تحتاجها؟",det:"تفاصيل المشروع",detPh:"ما المطلوب تصنيعه أو تنفيذه، الكميات، المواعيد…",bud:"الميزانية بالجنيه (اختياري)",budPh:"مثال 50000",when:"متى تحتاجها؟",co:"اسم الشركة",city:"المدينة",name:"اسمك",phone:"رقم الهاتف (واتساب)",send:"أرسل طلبي",note:"اطّلع على إشعار الخصوصية أدناه لمعرفة كيف نستخدم بياناتك.",
@@ -186,22 +185,22 @@ hT:"كيف نعمل",s1:"أرسل طلبك أو بيانات شركتك.",s2:"ي
 sending:"جارٍ الإرسال…",err:"تعذّر إرسال بياناتك. تحقق من الاتصال بالإنترنت وحاول مرة أخرى.",errPhone:"يرجى إدخال رقم هاتف صحيح (من 10 إلى 15 رقما).",
 okQT:"تم استلام طلبك",okQ:"شكرا لك. استلمنا طلبك وسنتواصل معك على رقم الهاتف الذي أدخلته، عادةً خلال يوم عمل واحد.",okJT:"تم استلام بياناتك",okJ:"شكرا لك. استلمنا بياناتك وسنتواصل معك قريبا.",again:"إرسال طلب آخر",
 privT:"إشعار الخصوصية والشروط",upd:"آخر تحديث: نوفمبر 2026",
-op:"كولينك خدمة في مرحلة الوصول المبكر، يديرها {OP}، مصر.",contact:"للاستفسارات أو طلبات الخصوصية: {EMAIL}",foot:"كولينك. وصول مبكر، مصر."}
+op:"كولينك خدمة في مرحلة الوصول المبكر، مقرها مصر.",contact:"للاستفسارات أو طلبات الخصوصية: {EMAIL}",foot:"منصة مصرية لخدمات الشركات."}
 };
 var LEGAL={
 en:[
-["Who we are","Colink is an early-access service that helps businesses in Egypt find service providers. It is operated by {OP}. For any question or request about your data, contact {EMAIL}."],
+["Who we are","Colink is an early-access service that helps businesses in Egypt find service providers. For any question or request about your data, contact {EMAIL}."],
 ["What we collect","From buyers: name, company, city, phone number, project details, budget and timing. From providers: company, city, main service, Instagram or website link, years in business, team size, a short description, name and phone number. We also record the language of the page and where you came from (for example, which ad), so we know which channels work."],
 ["Why we use it","To review your submission, contact you, match buyers with suitable providers, and improve the service. Our basis for doing so is your consent, which you give by ticking the box on the form."],
-["Who sees it","Buyer requests are shared only with the providers we match to your request. Provider details are shared only with buyers whose requests match your service. We do not publish your business details on any public page without your separate permission. We store submissions with Google (Google Sheets) and host this page with Netlify, so your data may be processed on servers outside Egypt."],
+["Who sees it","Buyer requests are shared only with the providers we match to your request. Provider details are shared only with buyers whose requests match your service. We do not publish your business details on any public page without your separate permission. We store submissions with Google (Google Sheets) and host this page with GitHub Pages, so your data may be processed on servers outside Egypt."],
 ["How long we keep it","Up to {RET} months after our last contact with you, unless you ask us to delete it sooner."],
 ["Your rights","Under Egypt’s Personal Data Protection Law (Law No. 151 of 2020) you may ask to see, correct or delete your data, and withdraw your consent at any time. Email {EMAIL} and we will act on your request."],
 ["Early-access terms","Colink introduces buyers and providers. During early access we do not yet verify providers’ documents, and we do not guarantee any quote, price, delivery time or quality. Any agreement is made directly between buyer and provider, so please do your own checks before paying or signing. Colink does not charge fees during early access, and we may change or stop the service at any time."]],
 ar:[
-["من نحن","كولينك خدمة في مرحلة الوصول المبكر تساعد الشركات في مصر على العثور على مزودي الخدمات. يديرها {OP}. لأي سؤال أو طلب يخص بياناتك، تواصل معنا على {EMAIL}."],
+["من نحن","كولينك خدمة في مرحلة الوصول المبكر تساعد الشركات في مصر على العثور على مزودي الخدمات. لأي سؤال أو طلب يخص بياناتك، تواصل معنا على {EMAIL}."],
 ["ما الذي نجمعه","من العملاء: الاسم والشركة والمدينة ورقم الهاتف وتفاصيل المشروع والميزانية والتوقيت. من المزودين: الشركة والمدينة والخدمة الرئيسية ورابط انستجرام أو الموقع وسنوات الخبرة وحجم الفريق ووصف مختصر والاسم ورقم الهاتف. كما نسجّل لغة الصفحة ومصدر وصولك (مثل الإعلان) لنعرف القنوات الأفضل."],
 ["لماذا نستخدمها","لمراجعة ما ترسله والتواصل معك وربط العملاء بالمزودين المناسبين وتحسين الخدمة. أساس ذلك هو موافقتك التي تمنحها بتحديد المربع في النموذج."],
-["من يطّلع عليها","تُشارك طلبات العملاء فقط مع المزودين المناسبين لطلبك. وتُشارك بيانات المزودين فقط مع العملاء الذين تناسب طلباتهم خدمتهم. لا ننشر بيانات نشاطك في أي صفحة عامة دون موافقتك المنفصلة. نحفظ الطلبات لدى Google (جداول Google) ونستضيف هذه الصفحة لدى Netlify، لذا قد تُعالَج بياناتك على خوادم خارج مصر."],
+["من يطّلع عليها","تُشارك طلبات العملاء فقط مع المزودين المناسبين لطلبك. وتُشارك بيانات المزودين فقط مع العملاء الذين تناسب طلباتهم خدمتهم. لا ننشر بيانات نشاطك في أي صفحة عامة دون موافقتك المنفصلة. نحفظ الطلبات لدى Google (جداول Google) ونستضيف هذه الصفحة على GitHub Pages، لذا قد تُعالَج بياناتك على خوادم خارج مصر."],
 ["مدة الاحتفاظ","حتى {RET} شهرا بعد آخر تواصل بيننا، إلا إذا طلبت حذفها قبل ذلك."],
 ["حقوقك","بموجب قانون حماية البيانات الشخصية المصري (القانون رقم 151 لسنة 2020) يحق لك طلب الاطلاع على بياناتك أو تصحيحها أو حذفها، وسحب موافقتك في أي وقت. راسلنا على {EMAIL} وسنتعامل مع طلبك."],
 ["شروط الوصول المبكر","تعرّف كولينك العملاء بالمزودين. في مرحلة الوصول المبكر لا نتحقق بعد من مستندات المزودين، ولا نضمن أي عرض أو سعر أو موعد تسليم أو جودة. أي اتفاق يتم مباشرة بين العميل والمزود، لذا يُرجى إجراء التحقق اللازم قبل الدفع أو التوقيع. لا تفرض كولينك رسوما خلال الوصول المبكر، وقد نغيّر الخدمة أو نوقفها في أي وقت."]]
@@ -210,7 +209,7 @@ var lang="en",loadedAt=Date.now();
 function $(i){return document.getElementById(i)}
 function tr(k){return T[lang][k]}
 function L(a){return a[lang==="en"?0:1]}
-function sub(s){return s.replace("{OP}",CONFIG.OPERATOR).replace("{EMAIL}",CONFIG.EMAIL).replace("{RET}",CONFIG.RETENTION_MONTHS)}
+function sub(s){return s.replace("{EMAIL}",CONFIG.EMAIL).replace("{RET}",CONFIG.RETENTION_MONTHS)}
 function fill(id,arr,keep){var s=$(id),v=s.selectedIndex;s.innerHTML=arr.map(function(a,i){return '<option value="'+i+'">'+L(a)+'</option>'}).join("");if(keep&&v>0)s.selectedIndex=v}
 function el(tag,txt,cls){var e=document.createElement(tag);if(txt!=null)e.textContent=txt;if(cls)e.className=cls;return e}
 function consent(id,t1){
